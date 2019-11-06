@@ -1,0 +1,13 @@
+<div class="div" style="display: flex;flex-wrap:wrap;">
+
+    {{#each scrap}}
+    <div class="elemento" style="display:flex;align-items:center;flex-direction:column;flex-basis:15%;margin:3px">
+    <img src={{this.imagen}} />
+
+    <h3>{{this.descripcion}}</h3>
+
+    <h3>{{this.precio}}</h3>
+    </div>
+    {{/each}}
+</div>
+
